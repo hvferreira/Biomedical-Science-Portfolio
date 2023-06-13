@@ -359,9 +359,15 @@ button.contact-btn{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-.about-personal-info div span{
+.about-personal-info div span {
 	color: var(--text-clr);
 	letter-spacing: 1px;
+	
+}
+.about-personal-info  a {
+	color: var(--text-clr);
+	letter-spacing: 1px;
+	text-decoration: none;
 }
 .about-desc .download-btn{
 	border-radius: 25px;
@@ -417,6 +423,7 @@ button.contact-btn{
 	color: var(--primary-clr);
 	font-size: 20px;
 	transition: 0.3s;
+	text-decoration: none;
 }
 .service-box p {
 	color: var(--text-clr);
@@ -752,6 +759,22 @@ button.contact-btn{
 	display: inline-block;
 	margin-bottom: 25px;
 }
+.column-1 .contactTitle a{
+	
+	/* color: var(--primary-clr); */
+	
+	color: var(--text-clr);
+letter-spacing: 1px;
+text-decoration: none;
+}
+.column-1 .contactTitle h3{
+
+	color: var(--primary-clr);
+	display: inline-block;
+
+}
+
+
 .column-1 .contactTitle h2::before{
 	content: '';
 	position: absolute;
@@ -997,6 +1020,7 @@ button.contact-btn{
 	/* About Section */
 	.about{
 		flex-direction: column;
+		
 	}
 	.about .about-desc{
 		flex-basis: 100%;
@@ -1009,6 +1033,7 @@ button.contact-btn{
 		margin-top: 14px;
 		padding-bottom: 10px;
 		border-bottom: 1px solid var(--primary-light-clr);
+		
 	}
 	.about .about-image{
 		flex-basis: 100%;
