@@ -8,14 +8,15 @@ html{
 	scroll-behavior: smooth;
 	
 	/*   *** Storing Colors In Variables ***   */
-	--bg-clr-one: #f6f9fe;
+	--bg-clr-one: #161010;
 	--bg-clr-two: #f4f7fc;
-	--bg-clr-three: #eef1f6;
-	--primary-clr: #05555c;
-	--primary-light-clr: #eaf3fa;
-	--links-clr: #186f78;
-	--text-clr: #3f7277;
+	--bg-clr-three: #eef1f6;;
+	--primary-clr: #8d60fb;
+	--primary-light-clr: #111111;
+	--links-clr: #8d60fb;
+	--text-clr: #fb60e7;
 	--secondary-heading: #277b6d;
+	background-color: black;
 }
 
 /*   *** Reusable Code Starts ***   */
