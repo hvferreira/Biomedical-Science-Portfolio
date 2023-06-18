@@ -100,7 +100,7 @@ body{
 	position: fixed;
 	max-height: 70px;
 	height: 10vh;
-	background-color: var(--bg-clr-one);
+	background-color: black;
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.15);
 }
 .navbar .logo a{
