@@ -477,13 +477,25 @@ button.contact-btn{
 	background-color: var(--bg-clr-one);
 }
 .resume .resume-row{
+	  /* display: flex;  */
+	justify-content: space-between;
+	gap: 20px;
+
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.resume-row2{
+	display: flex; 
 	justify-content: space-between;
 	gap: 20px;
 }
 .resume-row .column .sub-heading{
 	color: var(--primary-clr);
 	padding: 0px 0px 20px 30px;
+	
 }
 .column .resume-contents{
 	padding-left: 30px;
